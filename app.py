@@ -21,7 +21,7 @@ def home():
 
         try:
             ydl_opts = {
-                'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]',
+                'format': 'worstvideo[ext=mp4]+worstaudio[ext=m4a]/worst[ext=mp4]',
                 'noplaylist': True,
                 'quiet': True,
                 'headers': {
