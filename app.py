@@ -33,8 +33,6 @@ def home():
                 }],
                 'outtmpl': '%(title)s.%(ext)s',
                 'postprocessor_args': ['-movflags', 'faststart'],
-                'username': 'oauth',
-                'password': ''
             }
 
             # Download the video as a stream
