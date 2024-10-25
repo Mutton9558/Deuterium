@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deuterium</title>
+</head>
+<body>
+    <h1>Welcome to Deuterium</h1>
+    <h3>Reliable and Open-Source YouTube Video to File Converter!</h3>
+    <p>Currently, we only support downloads for mp4. Read our GitHub for future changes: </p>
+    <a href="https://github.com/Mutton9558/Deuterium">GitHub</a>
+    <!-- Display Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <form method="POST">
+        <p>Enter YouTube Link:</p>
+        <p><input type="text" name="link" placeholder="Enter a YouTube Link (e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ) "></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
