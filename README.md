@@ -1,14 +1,11 @@
 # Deuterium
 # Overview
-Web application to convert YouTube Videos to File
+Desktop Application to convert YouTube videos to File formats
 
 # Tools Used
 1. Languages: HTML, Python
-2. Libraries/Frameworks: Flask, yt-dlp
+2. Libraries/Frameworks: Flask, yt-dlp, Tkinter, Pillow (PIL)
 
-# Current Issues
-1. YouTube bot authentication prevents the site from accessing YouTube videos
-2. Inefficient conversion system that relies on the server to download the video first before allowing users to download.
-
-# Solution
-Scrap the idea of web application and instead use the website to publish a desktop application for said functionality
+# Current Progress
+- Website on hold for redevelopment
+- Desktop application under development
