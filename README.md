@@ -8,4 +8,5 @@ Desktop Application to convert YouTube videos to File formats
 
 # Current Progress
 - Website on hold for redevelopment
-- Desktop application under development
+- Desktop application essentially finished
+- Packaging the application for download through web
